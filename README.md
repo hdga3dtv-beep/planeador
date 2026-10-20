@@ -5,7 +5,7 @@ Funciona en tu computadora, sin internet y sin cuentas: lo que escribes no sale 
 
 ## Descargar
 
-**[⬇ Descargar el Planeador (Planeador.zip)](https://github.com/hdga3dtv-beep/planeador/releases/latest/download/Planeador.zip)**
+**[⬇ Descargar el Planeador (Planeador.zip, 13 MB)](https://github.com/hdga3dtv-beep/planeador/raw/main/Planeador.zip)**
 
 1. Clic derecho en `Planeador.zip` → **Extraer todo…** → **Extraer**.
 2. En la carpeta que sale, doble clic en **Instalar**.
@@ -43,3 +43,4 @@ Más detalles en [LEEME.txt](LEEME.txt).
 | `datos/` | Contenidos y PDA de los programas sintéticos 2024 de las Fases 3, 4 y 5 |
 | `planeaciones/` | Lo que guardas y generas (aquí solo viene la DEMO, con datos ficticios) |
 | `Instalar.bat` | Lo copia a `Documentos\Planeador` y le pone su ícono |
+| `Planeador.zip` | La descarga: todo lo anterior más Python portátil |
