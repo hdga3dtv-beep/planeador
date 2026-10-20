@@ -7,7 +7,6 @@ Instalarlo (una sola vez)
 1. Si te llegó como Planeador.zip: clic derecho → «Extraer todo…» → «Extraer».
 2. En la carpeta que sale, doble clic en «Instalar».
    - Si Windows pregunta si quieres ejecutarlo, elige «Ejecutar» (o «Más información» → «Ejecutar de todas formas»).
-   - Si tu computadora no tiene Python, se abre la Tienda de Microsoft: pica «Obtener» y luego vuelve a abrir «Instalar».
 3. Listo: queda en Documentos\Planeador, con su ícono «Planeador» en el escritorio y en el menú Inicio.
    Ya puedes borrar el .zip y la carpeta que descomprimiste.
 
@@ -45,8 +44,8 @@ Botones de arriba
 - Generar Word y PDF: arma el .docx en el formato elegido, lo revisa y lo pasa a PDF con Word. Quedan en «planeaciones».
 
 Qué necesita
-- Windows 10 u 11, con Edge o Chrome.
-- Python 3.8 o más nuevo (si el .zip trae la carpeta «python», ya viene incluido).
+- Windows 10 u 11 de 64 bits, con Edge o Chrome.
+- Python: ya viene incluido en la carpeta «python» (es portátil: no se instala ni toca nada fuera del Planeador).
 - Microsoft Word, para el PDF. Sin Word, el Planeador hace el .docx, pero no el PDF.
 
 Actualizarlo

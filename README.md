@@ -26,9 +26,10 @@ Para actualizarlo, descarga otra vez y vuelve a abrir **Instalar**: tus planeaci
 
 ## Qué necesita
 
-- Windows 10 u 11, con Edge o Chrome.
-- Python 3.8 o más nuevo (el instalador lo busca; si falta, abre la Tienda de Microsoft para instalarlo gratis).
+- Windows 10 u 11 de 64 bits, con Edge o Chrome.
 - Microsoft Word, para el PDF. Sin Word, el Planeador hace el `.docx`, pero no el PDF.
+- Nada más: `Planeador.zip` trae Python 3.13 portátil, que no se instala ni toca nada fuera de la carpeta del Planeador.
+  (Si usas el código de este repositorio sin el `.zip`, necesitas Python 3.8 o más nuevo.)
 
 Más detalles en [LEEME.txt](LEEME.txt).
 

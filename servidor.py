@@ -407,6 +407,12 @@ def vigila(srv):
             return
 
 
+class Servidor(ThreadingHTTPServer):
+    # 19 oct: con SO_REUSEADDR (el valor de HTTPServer), Windows deja abrir un segundo Planeador en el mismo puerto en
+    # lugar de dar error, y no se sabe cuál contesta; sin él, el segundo pasa al puerto siguiente
+    allow_reuse_address = os.name != 'nt'
+
+
 def main():
     GUARDADAS.mkdir(exist_ok=True)
     app = '--app' in sys.argv
@@ -415,7 +421,7 @@ def main():
     puerto = PUERTO
     while True:
         try:
-            srv = ThreadingHTTPServer(('127.0.0.1', puerto), Manejador)
+            srv = Servidor(('127.0.0.1', puerto), Manejador)
             break
         except OSError:
             puerto += 1
