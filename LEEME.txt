@@ -1,0 +1,61 @@
+PLANEADOR — panel para armar planeaciones didácticas en Word y PDF
+==================================================================
+
+Funciona en tu computadora, sin internet y sin cuentas. Lo que escribes no sale de tu equipo.
+
+Instalarlo (una sola vez)
+1. Si te llegó como Planeador.zip: clic derecho → «Extraer todo…» → «Extraer».
+2. En la carpeta que sale, doble clic en «Instalar».
+   - Si Windows pregunta si quieres ejecutarlo, elige «Ejecutar» (o «Más información» → «Ejecutar de todas formas»).
+   - Si tu computadora no tiene Python, se abre la Tienda de Microsoft: pica «Obtener» y luego vuelve a abrir «Instalar».
+3. Listo: queda en Documentos\Planeador, con su ícono «Planeador» en el escritorio y en el menú Inicio.
+   Ya puedes borrar el .zip y la carpeta que descomprimiste.
+
+Abrirlo
+- Doble clic en «Planeador» del escritorio. Se abre en su propia ventana, como un programa.
+- Para cerrarlo, cierra la ventana. El programa se apaga solo unos minutos después.
+- Para tenerlo a la mano: en el menú Inicio, clic derecho en «Planeador» → Más → Anclar a la barra de tareas.
+
+Pasos en el panel
+1. Datos generales: escuela, clave, zona, sector, fase, grado, grupo, logos (opcionales) y las personas de la hoja de
+   firmas. Si eres el docente titular y no hay practicante, escribe tu nombre (con tu título) en «Docente titular» y,
+   sin título, en «Docente en formación»: va en el encabezado y en la hoja de firmas sales una sola vez, como titular.
+2. Campo formativo central. La metodología se elige sola. Otro clic en otro campo lo agrega como secundario.
+3. Contenidos y PDA del programa sintético oficial 2024 (Fases 3, 4 y 5). Al terminar, pica «Listo».
+4. Datos del proyecto (nombre, tema, pregunta, productos, evento de cierre) y ejes articuladores.
+5. Momentos o etapas de la metodología: arrastra cada uno al día que le toca y pica «Listo».
+6. La semana: para cada día, inicio, desarrollo y cierre, con el texto tipo PDA y las consignas.
+7. Evaluación: pica en la tabla del libro 4 los instrumentos que vas a usar.
+8. Ajustes para alumnos con NEE: una tarjeta por alumno.
+9. Formato: la Planeación Cedros (el formato de la Esc. Prim. Urbana 136 «Cedros del Líbano») o el formato de tu
+   metodología. Abajo ves cómo va a quedar.
+
+Para ver un ejemplo completo: menú Archivo → Abrir… → «DEMO para video - Comemos sano» (todo es ficticio).
+
+Menú Archivo (arriba a la izquierda, o Alt + A)
+- Nueva ›: en blanco, con mis datos de la escuela o copia de la que tienes abierta.
+- Abrir… (Ctrl + O): todas tus planeaciones; ahí mismo se renombran y se eliminan (lo eliminado va a la papelera).
+- Recuperar ›: versiones anteriores (las últimas 30), borradores que se cerraron sin guardar y la papelera.
+- Guardar (Ctrl + S).
+- Mis datos de la escuela…: guardas una vez el paso 1 y los alumnos con NEE, y las planeaciones nuevas ya salen con ellos.
+
+Botones de arriba
+- Guardar: la guarda en Documentos\Planeador\planeaciones.
+- Revisar: busca errores. Una FALLA quiere decir que así no se entrega.
+- Generar Word y PDF: arma el .docx en el formato elegido, lo revisa y lo pasa a PDF con Word. Quedan en «planeaciones».
+
+Qué necesita
+- Windows 10 u 11, con Edge o Chrome.
+- Python 3.8 o más nuevo (si el .zip trae la carpeta «python», ya viene incluido).
+- Microsoft Word, para el PDF. Sin Word, el Planeador hace el .docx, pero no el PDF.
+
+Actualizarlo
+- Descarga la versión nueva, descomprímela y vuelve a abrir «Instalar». Tus planeaciones y tus datos se quedan.
+
+Quitarlo
+- Borra la carpeta Documentos\Planeador (ahí están también tus planeaciones: guarda antes las que quieras) y el ícono
+  «Planeador» del escritorio y del menú Inicio.
+
+Si algo falla
+- Documentos\Planeador\registro.txt dice lo que pasó al abrirlo.
+- Si un día el ícono no abre nada, vuelve a abrir «Instalar» desde Documentos\Planeador.

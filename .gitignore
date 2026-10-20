@@ -1,0 +1,10 @@
+# Lo de cada docente no se sube: sus planeaciones, sus datos y su registro
+planeaciones/*
+!planeaciones/DEMO para video - Comemos sano.json
+!planeaciones/DEMO para video - Comemos sano.panel
+mis_datos.json
+registro.txt
+# Python portátil: va en el .zip de la descarga, no en el repositorio
+python/
+__pycache__/
+*.pyc
